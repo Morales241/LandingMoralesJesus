@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles.css">
     <title>Mi Página</title>
 </head>
 <body>
@@ -10,6 +11,7 @@
         <nav>
             <ul>
                 <li><a href="#portada">Portada</a></li>
+                <li><a href="#introduccion">Introducción</a></li>
                 <li><a href="#hobbies">Hobbies</a></li>
                 <li><a href="#favoritos">Series/Películas Favoritas</a></li>
                 <li><a href="#contacto">Contacto</a></li>
@@ -18,7 +20,8 @@
     </header>
     
     <section id="portada">
-        <img src="Resources/ITSON-MARCA.png" class="logo">
+        <div class="logo"><img src="Resources/ITSON-MARCA.png"></div>
+        
         <h2>Estudiante:</h2>
         <h3>Jesús Alberto Morales Rojas</h3>
         <h2>ID:</h2>
@@ -32,13 +35,13 @@
 
     </section>
     
-    <section>
-        <h2>Introducción</h2>
+    <section id="introduccion">
+        <h2 class="titulo">Introducción</h2>
         <p>Soy Jesús Morales, soy estudiante de la carrera de ingeniería en software y cree esta página para compartir un más sobre mí.</p>
     </section>
 
     <section id="hobbies">
-        <h2>Mis Hobbies</h2>
+        <h2 class="titulo">Mis Hobbies</h2>
         <ul>
             <li>Leer libros</li>
             <li>Pasear en bicicleta</li>
@@ -48,7 +51,7 @@
     </section>
     
     <section id="favoritos">
-        <h2>Series y Películas Favoritas</h2>
+        <h2 class="titulo">Series y Películas Favoritas</h2>
         <ul>
             <li>Grimm</li>
             <li>Robot salvaje o the wild robot</li>
@@ -58,8 +61,7 @@
     </section>
     
     <section id="contacto">
-        <h2>Contacto</h2>
-        <p>Mi contacto es:</p>
+        <h2 class="titulo">Contacto</h2>
         <ul>
             <li>Email: jesus.morales245335@potros.itson.edu.mx</li>
             <li>WhatssApp: 6441494951</li>
